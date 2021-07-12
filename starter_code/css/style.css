@@ -1,0 +1,188 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* FONTS
+/*******************************************/
+
+/* font-family: "Open Sans", Arial, sans-serif */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/**/
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+body {
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+
+.header{
+    background-image: url("../images/header_bg.jpg");
+    height: 100%; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+.header h1{
+    color: #f0efef;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 3%;
+    font-size: 24px;
+    font-weight: 800;
+}
+.allignCenter{
+    text-align: center;
+    
+}
+.allignCenter h2{
+    margin-top: 20%;
+    color: #f0efef;
+    font-size: 24px;
+    font-weight: 600;
+}
+.btn1{
+    margin-top: 3%;
+    color: #033048;
+    background-color: #f9e42e;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    border: none;
+}
+
+.gray{
+    background-color: #f0efef;
+    height: 60%;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+
+.gray h2{
+    font-size: 20px;
+    font-weight: 600;
+    color:#033048;
+}
+
+
+.graytxt{
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 60%;
+}
+
+.gray p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #606161;
+}
+
+
+.gray ul{
+    color: #606161;
+    list-style: inside;
+}
+
+
+
+.gray ul li{
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 2%;
+}
+
+
+.quote{
+    background-image: url("../images/testimonial_bg.jpg");
+    height: 100%; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40%;
+    text-align: center;
+}
+
+ 
+.quote .qtxt .p1{
+    padding-top: 10%;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    color:#f0efef;
+}
+.quote .qtxt .p2{
+    padding-top: 1%;
+    font-size: 18px;
+    font-weight: 600;
+    color:#f0efef;
+}
+
+
+.yellow{
+    text-align: center;
+    background-color: #f9e42e;
+    height: 10%;
+}
+
+.yellow .btn2{
+    margin-top: 1.3%;
+    color:#f0efef;
+    background-color:#033048;
+    height: 35px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #121212;
+    height: 40%;
+}
+
+.footer h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9e42e;
+    padding-top: 1%;
+}
+
+.footer .social img{
+    padding-top: 5%;
+    color: #f0efef;
+}
+
+
+
+.footer h6{
+    padding-top: 5%;
+    font-size: 9px;
+    font-weight: 600;
+    color: #f0efef;
+}
+
+
+
+
